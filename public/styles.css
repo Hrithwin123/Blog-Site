@@ -77,7 +77,6 @@ a{
     border-radius:20px;
 }
 .contents{
-    
     font-family:sans-serif;
     display:flex;
     margin-bottom:20px;
@@ -100,6 +99,11 @@ a{
 
 .blog-head{
     margin-bottom:15px;
+}
+
+.blog-head:hover{
+
+    color:rgb(255, 0, 0);
 }
 
 /*about-us styling*/
@@ -136,7 +140,6 @@ a{
     flex-direction:column;
     align-items:center;
     width:98.5vw;
-
     height:450px;
 
 }
