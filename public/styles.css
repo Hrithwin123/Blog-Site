@@ -1,0 +1,298 @@
+*{
+    margin:0px;
+
+}
+
+
+a{
+    color : black;
+}
+
+.footer{
+    margin-top:150px;
+}
+
+.hr{
+    color:green;
+}
+
+.footer-text{
+    margin-top:10px;
+}
+
+
+/*nav styling*/
+
+.nav-head{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:35px;
+    margin-top:10px;
+    
+}
+
+.nav-heading{
+    color:green;
+    font-size:40px;
+    font-weight:bolder;
+
+}
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:25px;
+}
+
+.nav-elements{
+    text-decoration : none;
+    font-size:18px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+/*index styling*/
+
+.allblogs{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:40px;
+    margin-left:25px;
+    font-family:sans-serif;
+}
+
+.blogs{
+    width:98vw;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.line{
+    background-color:green;
+    height:100px;
+    margin-top:8px;
+    width:10px;
+    border-radius:20px;
+}
+.contents{
+    
+    font-family:sans-serif;
+    display:flex;
+    margin-bottom:20px;
+    padding:10px;
+    margin-left:20px;
+    border-radius:10px;
+    border:1px solid green;
+    box-shadow:0px 3px 5px black;
+}
+
+.contents:hover{
+    color:green;
+    box-shadow:0px 4px 7px green;
+
+}
+.content{
+    margin-left:25px;
+ 
+}
+
+.blog-head{
+    margin-bottom:15px;
+}
+
+/*about-us styling*/
+
+.about-head{
+    margin-top:20px;
+    font-family:sans-serif;
+    text-decoration:underline;
+
+}
+
+.about-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family:sans-serif;
+    font-size:20px;
+    margin-top:100px;
+
+}
+
+/*create styling*/
+
+.create-head{
+    text-decoration:underline;
+    color:green;
+    margin:25px;
+    font-size:40px;
+
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:98.5vw;
+
+    height:450px;
+
+}
+
+.whole-form{
+
+    display:flex;
+    flex-direction:row;
+}
+.form{
+    display:flex;
+    flex-direction:row;
+    
+}
+.labels{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly
+}
+
+.createhead{
+    font-family:sans-serif;
+    
+}
+.boxes{
+    margin-left:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.box{
+    height:35px;
+    width:250px;
+    
+}
+
+.titles{
+    font-size:20px;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly
+    
+}
+
+.colons{
+    font-size:20px;
+    margin-left:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.outer-form{
+    box-shadow:0px 2px 5px rgb(0, 0, 0);
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    border:2px solid green;
+    padding:20px;
+    border-radius:20px;
+    
+    
+}
+
+.sidebyside{
+    display:flex;
+    flex-direction:row;
+}
+
+.head-align{
+    display:flex;
+    flex-direction:column;
+
+
+}
+.title-box{
+    margin-top:40px;
+}
+
+.submit{
+    border:none;
+    color:white;
+    font-family:sans-serif;
+    background-color:green;
+    height:50px;
+    width:150px;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px;
+}
+
+.submit:hover{
+    background-color:rgb(0, 66, 0);
+    border:black solid 2px;
+}
+
+.button-center{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+
+}
+
+    
+/*details styling*/
+
+.delete{
+    margin-top:35px;
+    font-family:sans-serif;
+    font-size:20px;
+    font-weight:bolder;
+
+    border:none;
+    color:white;
+    font-family:sans-serif;
+    background-color:rgb(255, 0, 0);
+    height:50px;
+    width:150px;
+    align-items: center;
+    justify-content: center;;
+    border-radius:30px;
+    
+}
+
+.delete:hover{
+    background-color:rgb(146, 0, 0);
+    box-shadow: 0px 2px 5px black;
+
+}
+
+.details-title{
+    font-size:40px;
+    margin-top:50px;
+    font-family:sans-serif;
+    margin-bottom:20px;
+}
+
+.details-body{
+    font-family:sans-serif;
+    margin-top:30px;
+    font-size:25px;
+
+}
+.details-box{
+    margin-top:50px;
+    border-radius:30px;
+    width:350px;
+    padding:20px;
+    border:2px solid green;
+    box-shadow:0px 2px 5px green;
+}
+

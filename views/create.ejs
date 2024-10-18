@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include("head")%>
+<body>
+    <%-include("nav")%>
+
+    
+    <div class = "form-container">
+        <form class ="outer-form" action = "/blogs" method = "POST">
+            
+            <center><h1 class = "create-head">Create a Blog</h1></center>
+
+            <div class = "head-align">
+
+                <div class = "form">
+    
+
+            
+
+                    <div class = "sidebyside">
+                        <div class = "labels">
+                            <div class = "titles">
+                                <h2 class = "createhead title-head">Blog Title</h2>
+                                <h2 class = "createhead snippet-head">Blog Snippet</h2>
+                                <h2 class = "createhead body-head">Blog Body</h2>
+                            </div>
+                            <div class = "colons">
+                                <h2>:</h2>
+                                <h2>:</h2>
+                                <h2>:</h2>
+                            </div>
+                        </div>
+
+                        <div class = "boxes">
+
+                            <input class = "box title-box" type = "text" id = "title" name = "title"><br><br>
+
+                            <input class = "box snippet-box" type = "text" id = "snippet" name = "snippet"><br><br>
+
+                            <input type = "text" class = "box body-box" id = "body" name = "body"></textarea><br><br>
+
+                        </div>
+                    </div>
+    
+                </div>
+
+                 <div class = "button-center"><button class = "submit"><h2 class = "submit-head">Submit</h2></button></center></div>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+<%-include("footer")%>
+
+</html>

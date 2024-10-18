@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%-include("head")%>
+<body>
+    <%-include("nav")%>
+
+    <h1 class = "allblogs"><%=allblogs%></h1>
+
+        <% blogs.forEach((blog) => { %>
+            <div class = "blogs">
+                <div class = "contents">
+                    <div class = "line"></div>
+
+                    <div class = "content">
+                        <a href = "/blogs/<%=blog._id%>">
+                            
+                            <h1 class = "blog-head"><%=blog.title%></h1>
+                        </a>
+                        <P class = "blog-para"><%=blog.snippet%></P>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+
+  
+    
+
+</body>
+    <%-include("footer")%>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include("head")%>
+<body>
+    <%-include("nav")%>
+    <br>
+    <center>
+        <div class = "details-box">
+            <h1 class = "details-title"><%=blog.title%></h1>
+            <p class = "details-body"><%=blog.body%></p><br>
+            <button class = "delete" data-doc = "<%=blog._id%>" href = "/blogs">Delete</button>
+        </div>
+    </center>
+
+
+
+
+    <script>
+        const trashcan = document.querySelector(".delete")
+
+        trashcan.addEventListener("click", () => {
+
+            fetch(`/blogs/${trashcan.dataset.doc}`, {method : "DELETE"}).then((response) => {
+
+                if(response.ok){
+                    response.json().then((result) => {
+
+                        window.location.href = result.redirect
+
+
+
+                    }).catch(err => {console.log(err)})
+                }
+                else{
+                    console.log("Response wasnt fetched properly")
+                }
+
+
+            }).catch(err => console.log(err))
+
+        })
+    </script>
+    
+</body>
+    <%-include("footer")%>
+</html>
