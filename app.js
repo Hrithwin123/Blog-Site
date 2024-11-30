@@ -1,17 +1,17 @@
+const dotenv = require("dotenv").config()
 const express = require("express")
 const mongoose = require("mongoose")
 const morgan = require("morgan")
+
 
 const blogController = require("./controllers/blogController")
 const port = 3000;
 
 const blogRoutes = require("./routes/blogRoutes")
 
-const dbURI = "mongodb+srv://hrithwin:clockmate@hrithwinpractise.xwjrl.mongodb.net/?retryWrites=true&w=majority&appName=hrithwinpractise"
+const dbURI = process.env.DBURI
 
 const app = express();
-
-
 
 app.set("views", "views")
 
